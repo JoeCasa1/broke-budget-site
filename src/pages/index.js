@@ -7,13 +7,14 @@ import Button from "../components/button"
 
 class IndexPage extends React.Component {
   render() {
-    const siteTitle = "Gatsby Starter Personal Website"
-
+    const { data } = this.props
+    const siteTitle = data
+    
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="Home"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+          title="The Broke Budget"
+          keywords={[`budget`, `finances`, `broke`, `bills`]}
         />
         <img style={{ margin: 0 }} src="./GatsbyScene.svg" alt="Gatsby Scene" />
         <h1>
@@ -22,14 +23,13 @@ class IndexPage extends React.Component {
             👋
           </span>
         </h1>
-        <p>Welcome to your new Gatsby website. You are on your home page.</p>
+        <p>If you realize you need a budget and you don't have money to hire an accountant, you are in the right place.</p>
         <p>
-          This starter comes out of the box with styled components and Gatsby's
-          default starter blog running on Netlify CMS.
+          This site will soon be filled with tips and case studies of what normal people with a minnimum income have done to achieve financial comfort.
         </p>
-        <p>Now go build something great!</p>
+        <p>Now go discover how to improve your budget!</p>
         <Link to="/blog/">
-          <Button marginTop="35px">Go to Blog</Button>
+          <Button marginTop="35px">Go to tips</Button>
         </Link>
       </Layout>
     )
