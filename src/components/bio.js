@@ -34,7 +34,7 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in Minnesota helping people.
+              Written by <strong>{author}</strong> who lives and works in Minnesota helping peopl with their budget.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 You should follow her on Twitter
