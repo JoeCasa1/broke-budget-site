@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: github
+  repo: joecasa1/broke-budget-site
 
 media_folder: static/assets
 public_folder: assets
