@@ -27,7 +27,7 @@ class IndexPage extends React.Component {
           This site will soon be filled with tips and case studies of what normal people with a minnimum income have done to achieve financial comfort.
         </p>
         <p>Now go discover how to improve your budget!</p>
-        <Link to="/blog/">
+        <Link to="/articles/">
           <Button marginTop="35px">Go to tips</Button>
         </Link>
       </Layout>

@@ -1,16 +1,15 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby's personal blog starter
+  This is the source for the BrokeBudget.com web site.
 </h1>
 
 <img alt="screesnhot" src="./screenshot.png">
 
-This starter is a fork of Gatsby Starter Blog, the most popular starter by far – with second place being Gatsby Starter Netlify CMS. So I decided to combine the 2!
+This starter is a fork of a fork of a Gatsby Starter Site. This combines certain features from multiple templates and then customized and a lot of relevant content added.
 
 ## 🚀 Quick start
 
@@ -55,5 +54,3 @@ Start from [this point](https://www.gatsbyjs.org/docs/sourcing-from-netlify-cms/
 ## 💫 Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thomaswangio/gatsby-personal-starter-blog)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
