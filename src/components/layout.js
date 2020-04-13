@@ -7,12 +7,8 @@ import { rhythm, scale } from "../utils/typography"
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
-    const rootPath = `${__PATH_PREFIX__}/`
     const blogPath = `${__PATH_PREFIX__}/articles/`
-    let header
-
-    if (location.pathname === rootPath || location.pathname === blogPath) {
-      header = (
+    let header = (
         <h1
           style={{
             ...scale(1.5),
@@ -32,27 +28,7 @@ class Layout extends React.Component {
           </Link>
         </h1>
       )
-    } else {
-      header = (
-        <h3
-          style={{
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/articles/`}
-          >
-            {title}
-          </Link>
-        </h3>
-      )
-    }
+    
     return (
       <Wrapper>
         <div
