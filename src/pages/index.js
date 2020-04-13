@@ -19,7 +19,7 @@ class IndexPage extends React.Component {
         <h1>
           Hey people{" "}
           <span role="img" aria-label="wave emoji">
-            👋
+            😷
           </span>
         </h1>
         <p>If you realize you need a budget and you don't have money to hire an accountant, you are in the right place.</p>
