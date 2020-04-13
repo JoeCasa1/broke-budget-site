@@ -8,10 +8,8 @@ The first question you need to ask yourself is, “do I believe it possible to b
 
 However, there is an upfront cost that will give you this peace. The cost is time, valuables, costly habits, and some development of new lifestyle choices. The second question you must ask yourself is, “am I willing to pay the price now to reap the rewards later?” If you are not ready to pay the cost now, you will need to get to that point before any security can be found in your finances. You may not be ready to pay the full cost up front but even doing one or two of the tips found below can help put you on the right path. If you decide you are ready to make some big changes this advice could drastically change how you see your finances and live your life. This could be the very life changing experience you have been looking for. Here is the summary of steps you can take to achieve stability, security, hope and peace with your finances.
 
-
-
 1. Develop A Budget And Stick To It (Click here to read a full article on how to create an easy budget that you can follow)
-2. Sell Items You Don’t Need Anymore (Click here to read a full article on ideas of what you could sell and what to use the money towards)
+2. Sell Items You Don’t Need Anymore ([Click here to read a full article on where to sell and what to use the extra money towards](https://broke-budget.netlify.com/blog/get-extra-cash-for-selling-items-you-dont-need-anymore/))
 3. Stash Away Your Credit Cards In A Safe (Click here to read why)
 4. Stop Eating Out (Click here to read cost comparisons and sample meal plans)
 5. Stop Going On Vacation And Dates (Click here to read about cheap vacation and date ideas)
@@ -31,11 +29,7 @@ However, there is an upfront cost that will give you this peace. The cost is tim
 19. When You Make A Mistake Don’t Give Up, Push Harder Towards The End Goal (Click here to see the importance of following it all the way through)
 20. Find Your Financial Security!
 
-
-
 You now have the general knowledge of what it takes to find peace and security with your financial situation. I suggest navigating to the other articles linked above for clarification and deeper details on areas that you wish to improve on. I don’t expect you to know it all from this article alone. This is where finding financial security will take some time. You first have to gain knowledge and then apply it to your life.
-
-
 
 You are well on your way to finding more peace in your financial situation. As you follow the tips above remember that every step is one step closer to your goal. Let that resonate in you and give you peace and security. Let it replace worrisome thoughts as you know what your goal is and that you’re taking proactive steps towards the goal.
 
