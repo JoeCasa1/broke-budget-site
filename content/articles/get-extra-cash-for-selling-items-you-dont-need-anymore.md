@@ -6,6 +6,8 @@ description: Earn some extra money by selling items you don't use or need anymor
 ---
 <!--StartFragment-->
 
+![](assets/eduardo-casajus-gorostiaga-xldo_m31pgc-unsplash.jpg)
+
 If you are looking for some extra cash, selling items you don’t need or don’t use is a great way to get some. It may seem like an obvious way to get some extra money but it is worth mentioning. Not everyone does it though for fear that they may need something in the future. As if you’re just holding onto something in case the need ever arises. Let me just tell you it is not worth holding onto it!
 
 If your house or apartment is full of unused items you should have plenty you could sell. When you hold onto things you don’t need and never use, it is considered hoarding. If you have ever seen the tv show Hoarders you know what I am talking about here. Those are extreme cases of hoarding. The literal definition of the word “hoard” is to store something away for future use. Many of us are guilty of this to some extent.
