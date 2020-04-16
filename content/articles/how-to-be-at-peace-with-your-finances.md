@@ -12,7 +12,7 @@ However, there is an upfront cost that will give you this peace. The cost is tim
 
 1. Develop A Budget And Stick To It (Click here to read a full article on how to create an easy budget that you can follow)
 2. Sell Items You Don’t Need Anymore ([Click here to read a full article on where to sell and what to use the extra money towards](https://broke-budget.netlify.com/articles/get-extra-cash-for-selling-items-you-dont-need-anymore/))
-3. Stash Away Your Credit Cards In A Safe (Click here to read why)
+3. Stash Away Your Credit Cards In A Safe ([Click here to read why](https://broke-budget.netlify.app/articles/credit-cards-belong-in-a-safe-not-in-your-wallet/))
 4. Stop Eating Out (Click here to read cost comparisons and sample meal plans)
 5. Stop Going On Vacation And Dates (Click here to read about cheap vacation and date ideas)
 6. Cancel Cable & All Those Video/Music Streaming Apps (Click here to see why)
