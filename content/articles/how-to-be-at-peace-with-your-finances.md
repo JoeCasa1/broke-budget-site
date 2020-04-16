@@ -15,7 +15,7 @@ However, there is an upfront cost that will give you this peace. The cost is tim
 3. Stash Away Your Credit Cards In A Safe ([Click here to read why](https://broke-budget.netlify.app/articles/credit-cards-belong-in-a-safe-not-in-your-wallet/))
 4. Stop Eating Out (Click here to read cost comparisons and sample meal plans)
 5. Stop Going On Vacation And Dates (Click here to read about cheap vacation and date ideas)
-6. Cancel Cable & All Those Video/Music Streaming Apps (Click here to see why)
+6. Cancel Cable & All Those Video/Music Streaming Apps ([Click here to see why](https://broke-budget.netlify.app/articles/cancel-all-those-video-streaming-apps-subscriptions/))
 7. Cancel Your Gym Membership If You Aren’t Using It Once A Week Or More (Click here to get ideas of what you can do instead of going to the gym)
 8. Cancel All Extra Luxury Subscriptions Or Apps (Click here to find out what counts as a luxury subscription)
 9. Work Extra Time At Work Or Get A Second Job (Click here to see how quickly this could help you get on top of your finances)
