@@ -17,3 +17,15 @@ collections:
       - { name: description, label: Description }
       - { name: "topimage", label: "Featured Image", widget: "image", default: "/assets/financial-peace.jpg" }
       - { name: body, label: Body, widget: markdown }
+  - name: lessons
+    label: Lessons
+    folder: content/lessons
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: "topimage", label: "Featured Image", widget: "image", default: "/assets/financial-peace.jpg" }
+      - { name: lessonnumber, label: "Lesson Number", widget: string }
+      - { name: body, label: Body, widget: markdown }
