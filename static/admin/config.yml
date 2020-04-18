@@ -16,7 +16,4 @@ collections:
       - { name: title, label: Title }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
-  - label: "Featured Image"
-    name: "topimage"
-    widget: "image"
-    default: "/assets/financial-peace.jpg"
+      - { name: "topimage", label: "Featured Image", widget: "image", default: "/assets/financial-peace.jpg" }
