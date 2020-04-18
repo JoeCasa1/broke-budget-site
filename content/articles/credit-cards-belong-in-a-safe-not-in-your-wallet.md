@@ -6,7 +6,7 @@ description: "Learn how credit cards can be used wisely for a better life "
 ---
 <!--StartFragment-->
 
-![](assets/credit-cards-in-wallet.jpg)
+![](/assets/credit-cards-in-wallet.jpg)
 
 Having a credit card can be beneficial for many reasons. It can help in emergencies, it can build reward points for future purchases, gain airline miles, and most importantly build your credit score. The downsides to owning a credit card though can outweigh the benefits. At the end of the day if you count all those late fees and the interest charged over time it adds up to costing you more than you get in benefits. Even if you are making on time payments! Credit card companies want you to use the cards frequently so that they get more money out of you. That is why they provide benefits to intrigue more interest in them.
 
