@@ -20,7 +20,7 @@ class TodoPage extends React.Component {
         
         <p> I think it should also include a thumbnail picture of something for each article. I know we talking about not just putting meaningless photos in each post but I think that a thumbnail on the list of articles will grab peoples attention more. It doesn’t have to be included as a giant image in the actual article though. Right now it’s so plain it’s hard to focus on what the titles and descriptions even are. Especially for a creative visual person like me <span role="img" aria-label="lol emoji">😂</span>.</p>
         
-        <p>I'm using <a href="https://www.nerdwallet.com/" target="_blank">NerdWallet.com</a> as my inspiration for the design of the website. They did something cool with the pages where they are divided by topic too (credit card, banking, investing, mortgage, loans, insurance, money, travel). Idk if that is something we should do or not cause most of the pages they have we wouldn’t not be touching on. But it is a good website to look at as far as navigation.</p>
+        <p>I'm using <a href="https://www.nerdwallet.com/" target="_blank" rel="noopener noreferrer">NerdWallet.com</a> as my inspiration for the design of the website. They did something cool with the pages where they are divided by topic too (credit card, banking, investing, mortgage, loans, insurance, money, travel). Idk if that is something we should do or not cause most of the pages they have we wouldn’t not be touching on. But it is a good website to look at as far as navigation.</p>
       </Layout>
     )
   }

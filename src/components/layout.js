@@ -1,34 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
 import styled from "styled-components"
+import Header from "./header.js"
 
-import { rhythm, scale } from "../utils/typography"
+import { rhythm } from "../utils/typography"
 
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
-    const blogPath = `${__PATH_PREFIX__}/articles/`
-    let header = (
-        <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={location.pathname === blogPath ? `/articles/` : `/`}
-          >
-            {title}
-          </Link>
-        </h1>
-      )
-    
     return (
       <Wrapper>
         <div
@@ -39,7 +17,7 @@ class Layout extends React.Component {
             padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
           }}
         >
-          <header>{header}</header>
+          <Header location={location} title={title} />
           <main>{children}</main>
         </div>
         <Footer>
