@@ -7,8 +7,6 @@ topimage: assets/free-to-use-sounds-koucx7fh50u-unsplash-2.jpg
 ---
 <!--StartFragment-->
 
-![]()
-
 Sometimes if you're broke or living on more than you’re actually making in income you need extra money. There is no way around it that you need to get extra money by working harder. That could mean picking up extra shifts at work or getting a part time job. There are also all kinds of different side hustles you can do. However, many side hustles are a waste of your time and energy. This may not be the answer you want to hear but it is the truth.
 
 Most side hustles will not earn you money quickly. You may think it is a good option to work from home to have the most flexibility but it is harder than you think. There are many scams out there that can actually take your money or your personal information. Then there are some side hustles that promise good money but in reality they generate really low and slow income. Most of the time only making a few cents to a few dollars every 5 to 10 hours of work that you put in. I should know because I have been stuck on that rat wheel before.
