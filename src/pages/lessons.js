@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import Button from "../components/button"
 
-class Articles extends React.Component {
+class Lessons extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
@@ -15,7 +15,7 @@ class Articles extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All articles" />
+        <SEO title="All lessons" />
         <Bio />
         <div style={{ margin: "20px 0 40px" }}>
           {posts.map(({ node }) => {
@@ -29,7 +29,7 @@ class Articles extends React.Component {
                 >
                   <Link
                     style={{ boxShadow: `none` }}
-                    to={`articles${node.fields.slug}`}
+                    to={`lessons${node.fields.slug}`}
                   >
                     {title}
                   </Link>
@@ -52,11 +52,11 @@ class Articles extends React.Component {
   }
 }
 
-export default Articles
+export default Lessons
 
 export const pageQuery = graphql`
-{
-   allMdx(sort: {fields: frontmatter___date, order: DESC}, filter: {frontmatter: {path: {eq: "articles"}}}) {
+   {
+    allMdx(sort: {fields: frontmatter___date, order: DESC}, filter: {frontmatter: {path: {eq: "lessons"}}}) {
       edges {
         node {
           excerpt
@@ -68,6 +68,7 @@ export const pageQuery = graphql`
             title
             description
             topimage
+            lessonnumber
             path
           }
         }

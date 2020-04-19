@@ -5,6 +5,8 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const lessonPost = path.resolve(`./src/templates/lesson-post.js`)
+
   return graphql(
     `
       {
@@ -19,6 +21,9 @@ exports.createPages = ({ graphql, actions }) => {
               }
               frontmatter {
                 title
+                path
+                topimage
+                lessonnumber
               }
             }
           }
@@ -37,15 +42,41 @@ exports.createPages = ({ graphql, actions }) => {
       const previous = index === posts.length - 1 ? null : posts[index + 1].node
       const next = index === 0 ? null : posts[index - 1].node
 
-      createPage({
-        path: `articles${post.node.fields.slug}`,
-        component: blogPost,
-        context: {
-          slug: post.node.fields.slug,
-          previous,
-          next,
-        },
-      })
+      if (post.node.frontmatter.path === 'lessons') { 
+        createPage({
+          path: `lessons${post.node.fields.slug}`,
+          component: lessonPost,
+          context: {
+            slug: post.node.fields.slug,
+            previous,
+            next,
+            title: post.node.frontmatter.title,
+            location: `lessons${post.node.fields.slug}`,
+            topimage: post.node.frontmatter.topimage,
+            lessonnumber: post.node.frontmatter.lessonnumber
+          },
+        })
+      } else if (post.node.frontmatter.path === 'articles') {
+        createPage({
+          path: `articles${post.node.fields.slug}`,
+          component: blogPost,
+          context: {
+            slug: post.node.fields.slug,
+            previous,
+            next,
+          },
+        })
+      } else {
+        createPage({
+          path: `articles${post.node.fields.slug}`,
+          component: blogPost,
+          context: {
+            slug: post.node.fields.slug,
+            previous,
+            next,
+          },
+        })
+      }
     })
 
     return null

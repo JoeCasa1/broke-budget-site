@@ -2,12 +2,10 @@ import React from "react"
 import { Link } from "gatsby"
 import { StaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
-// import styled from "styled-components"
 
 import { rhythm, scale } from "../utils/typography"
 
 class Header extends React.Component {
-
   constructor(data) {
     super(data)
     this.props = data
@@ -52,7 +50,7 @@ const bannerQuery = graphql`
  query bannerQuery {
     bannerImage: file(absolutePath: { regex: "/BrokeBudgetBanner.png/" }) {
       childImageSharp {
-     fluid(maxWidth: 1000) {
+        fluid(maxWidth: 680) {
           ...GatsbyImageSharpFluid
         }
       }

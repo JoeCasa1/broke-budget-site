@@ -1,19 +1,17 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-import FeaturedImage from "../components/featured-image"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
-class BlogPostTemplate extends React.Component {
+class LessonPostTemplate extends React.Component{
   render() {
     const post = this.props.data.mdx
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
-    const topimage = post.frontmatter.topimage
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -32,9 +30,6 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
-        {topimage}
-        <hr/>
-        <FeaturedImage image={topimage} />
         <MDXRenderer>{post.body}</MDXRenderer>
         <hr
           style={{
@@ -42,7 +37,6 @@ class BlogPostTemplate extends React.Component {
           }}
         />
         <Bio />
-
         <ul
           style={{
             display: `flex`,
@@ -72,10 +66,10 @@ class BlogPostTemplate extends React.Component {
   }
 }
 
-export default BlogPostTemplate
+export default LessonPostTemplate
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
+  query LessonPostBySlug($slug: String!) {
     site {
       siteMetadata {
         title
@@ -90,7 +84,6 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM YYYY")
         description
-        topimage
       }
     }
   }
