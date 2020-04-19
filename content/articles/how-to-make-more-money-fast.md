@@ -3,10 +3,11 @@ path: articles
 date: 2020-04-19T17:05:44.696Z
 title: How To Make More Money Fast!
 description: Learn how you could be making some extra cash to achieve your goals.
+topimage: assets/free-to-use-sounds-koucx7fh50u-unsplash-2.jpg
 ---
 <!--StartFragment-->
 
-![](assets/free-to-use-sounds-koucx7fh50u-unsplash-2.jpg)
+![]()
 
 Sometimes if you're broke or living on more than you’re actually making in income you need extra money. There is no way around it that you need to get extra money by working harder. That could mean picking up extra shifts at work or getting a part time job. There are also all kinds of different side hustles you can do. However, many side hustles are a waste of your time and energy. This may not be the answer you want to hear but it is the truth.
 
