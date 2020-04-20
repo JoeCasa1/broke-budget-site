@@ -3,7 +3,7 @@ path: articles
 date: 2020-04-19T17:05:44.696Z
 title: How To Make More Money Fast!
 description: Learn how you could be making some extra cash to achieve your goals.
-topimage: assets/free-to-use-sounds-koucx7fh50u-unsplash-2.jpg
+topimage: /assets/free-to-use-sounds-koucx7fh50u-unsplash-2.jpg
 ---
 <!--StartFragment-->
 

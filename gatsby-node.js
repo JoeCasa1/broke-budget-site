@@ -11,7 +11,7 @@ exports.createPages = ({ graphql, actions }) => {
     `
       {
         allMdx(
-          sort: { fields: [frontmatter___date], order: DESC }
+          sort: { order: [ASC, DESC] fields: [frontmatter___path, frontmatter___date] }
           limit: 1000
         ) {
           edges {
@@ -41,10 +41,11 @@ exports.createPages = ({ graphql, actions }) => {
     posts.forEach((post, index) => {
       const previous = index === posts.length - 1 ? null : posts[index + 1].node
       const next = index === 0 ? null : posts[index - 1].node
+      const { path, lessonnumber } = post.node.frontmatter
 
-      if (post.node.frontmatter.path === 'lessons') { 
+      if (path === 'lessons') { 
         createPage({
-          path: `lessons${post.node.fields.slug}`,
+          path: `${path}${post.node.fields.slug}`,
           component: lessonPost,
           context: {
             slug: post.node.fields.slug,
@@ -53,7 +54,7 @@ exports.createPages = ({ graphql, actions }) => {
             title: post.node.frontmatter.title,
             location: `lessons${post.node.fields.slug}`,
             topimage: post.node.frontmatter.topimage,
-            lessonnumber: post.node.frontmatter.lessonnumber
+            lessonnumber: lessonnumber
           },
         })
       } else if (post.node.frontmatter.path === 'articles') {

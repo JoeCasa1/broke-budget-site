@@ -1,12 +1,11 @@
 ---
-path: article
+path: articles
 date: 2020-04-13T21:04:46.730Z
 title: Get Extra Cash For Selling Items You Don't Need Anymore
 description: Earn some extra money by selling items you don't use or need anymore.
+topimage: /assets/sell-your-unused-items.jpg
 ---
 <!--StartFragment-->
-
-![](/assets/sell-your-unused-items.jpg)
 
 If you are looking for some extra cash, selling items you don’t need or don’t use is a great way to get some. It may seem like an obvious way to get some extra money but it is worth mentioning. Not everyone does it though for fear that they may need something in the future. As if you’re just holding onto something in case the need ever arises. Let me just tell you it is not worth holding onto it!
 

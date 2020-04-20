@@ -4,10 +4,9 @@ date: 2020-04-16T19:26:39.616Z
 title: "Cancel All Those Video Streaming Apps & Subscriptions "
 description: Discover the truth behind video streaming services and why you
   should cancel your subscriptions today!
-topimage: "/assets/financial-peace.jpg"
+topimage: "/assets/cancel-all-those-video-streaming-apps-subscriptions.png"
 ---
 <!--StartFragment-->
-![](/assets/cancel-all-those-video-streaming-apps-subscriptions.png)
 
 I love watching movies, I mean LOVE it! If I am given a day off I can sit in front of the tv all day. I can watch my favorite movies and shows time and time again and not get sick of them. Nowadays watching movies is even easier with subscriptions to Netflix, Amazon Prime, and Disney+. With a few clicks of the remote I can move onto a new show or movie. I don’t even have to move off the couch to put in a different DVD. However with this convenience also comes consequences and downsides.
 

@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-import FeaturedImage from "../components/featured-image"
+import Image from "gatsby-image"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -13,15 +13,17 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.mdx
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
-    const topimage = post.frontmatter.topimage
+    const { topimage, path, date, description, title } = post.frontmatter
+    
+    let featuredImage = "../../" + topimage
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
+          description={description || post.excerpt}
         />
-        <h1>{post.frontmatter.title}</h1>
+        <h1>{title}</h1>
         <p
           style={{
             ...scale(-1 / 5),
@@ -30,11 +32,10 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(-1),
           }}
         >
-          {post.frontmatter.date}
+          {date}
         </p>
-        {topimage}
-        <hr/>
-        <FeaturedImage image={topimage} />
+        <hr />
+        <img src={featuredImage} alt="" role="presentation" />
         <MDXRenderer>{post.body}</MDXRenderer>
         <hr
           style={{
@@ -53,15 +54,15 @@ class BlogPostTemplate extends React.Component {
           }}
         >
           <li>
-            {previous && (
-              <Link to={`articles${previous.fields.slug}`} rel="prev">
+            {previous && previous.frontmatter.path === path && (
+              <Link to={`${path}${previous.fields.slug}`} rel="prev">
                 ← {previous.frontmatter.title}
               </Link>
             )}
           </li>
           <li>
-            {next && (
-              <Link to={`articles${next.fields.slug}`} rel="next">
+            {next && next.frontmatter.path === path && (
+              <Link to={`${path}${next.fields.slug}`} rel="next">
                 {next.frontmatter.title} →
               </Link>
             )}
@@ -87,10 +88,12 @@ export const pageQuery = graphql`
       excerpt(pruneLength: 160)
       body
       frontmatter {
+        path
         title
         date(formatString: "MMMM YYYY")
         description
         topimage
+        lessonnumber
       }
     }
   }

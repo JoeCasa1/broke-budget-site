@@ -1,11 +1,11 @@
 ---
-path: article
+path: articles
 date: 2020-04-15T19:47:05.072Z
 title: I Had To Be Broke To Start A Budget
 description: My story of how I had to be broke before I decided to make a budget
+topimage: /assets/i-had-to-be-broke-to-start-a-budget.png
 ---
 <!--StartFragment-->
-![](/assets/i-had-to-be-broke-to-start-a-budget.png)
 Photo by <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@jeshoots?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from JESHOOTS.COM"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">JESHOOTS.COM</span></a>
 
 Making a budget is not an easy or very fun thing to do. Most people refuse to do it for various reasons. My reasoning was I thought I could pull all the calculations into my head. I thought I could know an average amount of what we spend on regular bills and an average of what we spend on food. I figured with some self discipline both me and my husband would only spend money on essentials with very few wants in between. I am not too proud to admit that I was wrong, very wrong.
