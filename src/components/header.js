@@ -17,7 +17,7 @@ class Header extends React.Component {
           const blogPath = `${__PATH_PREFIX__}/articles/`
           const location = this.props.location
           return (
-            <header>
+            <header className="header">
               <Link
                 style={{
                   boxShadow: `none`,

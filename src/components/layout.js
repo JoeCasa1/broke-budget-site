@@ -3,6 +3,7 @@ import styled from "styled-components"
 import Header from "./header.js"
 
 import { rhythm } from "../utils/typography"
+import { Link } from "gatsby"
 
 class Layout extends React.Component {
   render() {
@@ -18,6 +19,11 @@ class Layout extends React.Component {
           }}
         >
           <Header location={location} title={title} />
+          <div id="navbar">
+            <Link activeClassName="active" to="/">Home</Link>
+            <Link activeClassName="active" to="/articles">All Articles</Link>
+            <Link activeClassName="active" to="/lessons">Budget Guide</Link>
+          </div>
           <main>{children}</main>
         </div>
         <Footer>
