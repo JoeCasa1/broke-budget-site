@@ -20,6 +20,7 @@ class Articles extends React.Component {
         <div style={{ margin: "20px 0 40px" }}>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
+            const link = `${node.frontmatter.path}${node.fields.slug}`
             return (
               <div key={node.fields.slug}>
                 <h3
@@ -29,7 +30,7 @@ class Articles extends React.Component {
                 >
                   <Link
                     style={{ boxShadow: `none`, backgroundImage: "linear-gradient(0deg,#0fe63f7d 50%,transparent 50%)" }}
-                    to={`articles${node.fields.slug}`}
+                    to={link}
                   >
                     {title}
                   </Link>
