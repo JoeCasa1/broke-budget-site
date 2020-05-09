@@ -23,7 +23,7 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={description || post.excerpt}
         />
-        <h1>{title}</h1>
+        <h1><span>{title}</span></h1>
         <p
           style={{
             ...scale(-1 / 5),

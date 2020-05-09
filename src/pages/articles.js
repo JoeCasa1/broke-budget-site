@@ -28,7 +28,7 @@ class Articles extends React.Component {
                   }}
                 >
                   <Link
-                    style={{ boxShadow: `none` }}
+                    style={{ boxShadow: `none`, backgroundImage: "linear-gradient(0deg,#0fe63f7d 50%,transparent 50%)" }}
                     to={`articles${node.fields.slug}`}
                   >
                     {title}

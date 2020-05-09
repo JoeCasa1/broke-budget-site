@@ -10,6 +10,12 @@ class Layout extends React.Component {
     const { location, title, children } = this.props
     return (
       <Wrapper>
+        <Header location={location} title={title} />
+        <div id="navbar"><span id="titleInNav"></span>
+          <Link activeClassName="active" to="/">Home</Link>
+          <Link activeClassName="active" to="/articles/" partiallyActive={true}>All Articles</Link>
+          <Link activeClassName="active" to="/lessons/" partiallyActive={true}>Budget Guide</Link>
+        </div>
         <div
           style={{
             marginLeft: `auto`,
@@ -18,12 +24,6 @@ class Layout extends React.Component {
             padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
           }}
         >
-          <Header location={location} title={title} />
-          <div id="navbar">
-            <Link activeClassName="active" to="/">Home</Link>
-            <Link activeClassName="active" to="/articles">All Articles</Link>
-            <Link activeClassName="active" to="/lessons">Budget Guide</Link>
-          </div>
           <main>{children}</main>
         </div>
         <Footer>
