@@ -1,11 +1,9 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
-import Button from "../components/button"
 
 class Articles extends React.Component {
   render() {
@@ -16,11 +14,10 @@ class Articles extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All articles" />
-        <Bio />
         <div style={{ margin: "20px 0 40px" }}>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
-            const link = `${node.frontmatter.path}${node.fields.slug}`
+            const link = `/${node.frontmatter.path}${node.fields.slug}`
             return (
               <div key={node.fields.slug}>
                 <h3
@@ -28,10 +25,7 @@ class Articles extends React.Component {
                     marginBottom: rhythm(1 / 4),
                   }}
                 >
-                  <Link
-                    style={{ boxShadow: `none`, backgroundImage: "linear-gradient(0deg,#0fe63f7d 50%,transparent 50%)" }}
-                    to={link}
-                  >
+                  <Link to={link} className="articleLink">
                     {title}
                   </Link>
                 </h3>
@@ -45,9 +39,6 @@ class Articles extends React.Component {
             )
           })}
         </div>
-        <Link to="/">
-          <Button marginTop="85px">Go Home</Button>
-        </Link>
       </Layout>
     )
   }
