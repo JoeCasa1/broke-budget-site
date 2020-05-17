@@ -12,14 +12,20 @@ class LessonPostTemplate extends React.Component{
     const post = this.props.data.mdx
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
+    const { topimage, path, date, description, title } = post.frontmatter
+
+    const nextLink = next != null && next.frontmatter != null ? `${next.frontmatter.path}${next.fields.slug}` : null
+    const previousLink = previous != null && previous.frontmatter != null ? `${previous.frontmatter.path}${previous.fields.slug}` : null
+
+    const featuredImage = "../../" + topimage
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
+          title={title}
+          description={description || post.excerpt}
         />
-        <h1>{post.frontmatter.title}</h1>
+        <h1><span>{title}</span></h1>
         <p
           style={{
             ...scale(-1 / 5),
@@ -28,8 +34,10 @@ class LessonPostTemplate extends React.Component{
             marginTop: rhythm(-1),
           }}
         >
-          {post.frontmatter.date}
+          {date}
         </p>
+        <hr />
+        <img src={featuredImage} alt="" role="presentation" />
         <MDXRenderer>{post.body}</MDXRenderer>
         <hr
           style={{
@@ -47,15 +55,15 @@ class LessonPostTemplate extends React.Component{
           }}
         >
           <li>
-            {previous && (
-              <Link to={`articles${previous.fields.slug}`} rel="prev">
+            {previous && previous.frontmatter.path === path && (
+              <Link to={previousLink} rel="prev">
                 ← {previous.frontmatter.title}
               </Link>
             )}
           </li>
           <li>
-            {next && (
-              <Link to={`articles${next.fields.slug}`} rel="next">
+            {next && next.frontmatter.path === path && (
+              <Link to={nextLink} rel="next">
                 {next.frontmatter.title} →
               </Link>
             )}
@@ -81,9 +89,12 @@ export const pageQuery = graphql`
       excerpt(pruneLength: 160)
       body
       frontmatter {
+        path
         title
         date(formatString: "MMMM YYYY")
         description
+        topimage
+        lessonnumber
       }
     }
   }

@@ -41,9 +41,9 @@ exports.createPages = ({ graphql, actions }) => {
     posts.forEach((post, index) => {
       const previous = index === posts.length - 1 ? null : posts[index + 1].node
       const next = index === 0 ? null : posts[index - 1].node
-      const { path, lessonnumber } = post.node.frontmatter
+      const { path, lessonnumber, title, topimage } = post.node.frontmatter
 
-      if (path === 'lessons') { 
+  //    if (path === 'lessons') { 
         createPage({
           path: `${path}${post.node.fields.slug}`,
           component: lessonPost,
@@ -51,33 +51,42 @@ exports.createPages = ({ graphql, actions }) => {
             slug: post.node.fields.slug,
             previous,
             next,
-            title: post.node.frontmatter.title,
-            location: `lessons${post.node.fields.slug}`,
-            topimage: post.node.frontmatter.topimage,
+            title: title,
+            location: `${path}${post.node.fields.slug}`,
+            topimage: topimage,
             lessonnumber: lessonnumber
           },
         })
-      } else if (post.node.frontmatter.path === 'articles') {
-        createPage({
-          path: `articles${post.node.fields.slug}`,
-          component: blogPost,
-          context: {
-            slug: post.node.fields.slug,
-            previous,
-            next,
-          },
-        })
-      } else {
-        createPage({
-          path: `articles${post.node.fields.slug}`,
-          component: blogPost,
-          context: {
-            slug: post.node.fields.slug,
-            previous,
-            next,
-          },
-        })
-      }
+    //  } else if (post.node.frontmatter.path === 'articles') {
+      //  createPage({
+        //  path: `${path}${post.node.fields.slug}`,
+         // component: blogPost,
+      //     context: {
+      //       slug: post.node.fields.slug,
+      //       previous,
+      //       next,
+      //       title: title,
+      //       location: `${path}${post.node.fields.slug}`,
+      //       topimage: topimage,
+      //       lessonnumber: lessonnumber
+      //     },
+      //   })
+      // } else {
+      //   createPage({
+      //     path: `${path}${post.node.fields.slug}`,
+      //     component: blogPost,
+      //     context: {
+      //       slug: post.node.fields.slug,
+      //       previous,
+      //       next,
+      //       title: title,
+      //       location: `${path}${post.node.fields.slug}`,
+      //       topimage: topimage,
+      //       lessonnumber: lessonnumber
+
+      //     },
+      //   })
+      // }
     })
 
     return null

@@ -20,6 +20,7 @@ class Articles extends React.Component {
         <div style={{ margin: "20px 0 40px" }}>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
+            const link = `${node.frontmatter.path}${node.fields.slug}`
             return (
               <div key={node.fields.slug}>
                 <h3
@@ -28,8 +29,8 @@ class Articles extends React.Component {
                   }}
                 >
                   <Link
-                    style={{ boxShadow: `none` }}
-                    to={`articles${node.fields.slug}`}
+                    style={{ boxShadow: `none`, backgroundImage: "linear-gradient(0deg,#0fe63f7d 50%,transparent 50%)" }}
+                    to={link}
                   >
                     {title}
                   </Link>
@@ -64,7 +65,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMM YYY")
+            date(formatString: "MMMM YYYY")
             title
             description
             topimage

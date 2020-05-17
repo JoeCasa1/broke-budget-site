@@ -3,12 +3,19 @@ import styled from "styled-components"
 import Header from "./header.js"
 
 import { rhythm } from "../utils/typography"
+import { Link } from "gatsby"
 
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
     return (
       <Wrapper>
+        <Header location={location} title={title} />
+        <div id="navbar"><span id="titleInNav"></span>
+          <Link activeClassName="active" to="/">Home</Link>
+          <Link activeClassName="active" to="/articles/" partiallyActive={true}>All Articles</Link>
+          <Link activeClassName="active" to="/lessons/" partiallyActive={true}>Budget Guide</Link>
+        </div>
         <div
           style={{
             marginLeft: `auto`,
@@ -17,7 +24,6 @@ class Layout extends React.Component {
             padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
           }}
         >
-          <Header location={location} title={title} />
           <main>{children}</main>
         </div>
         <Footer>
