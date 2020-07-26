@@ -20,4 +20,20 @@ I’m not saying you should completely wipe out your TV time but think about tem
 
 I cancelled mine last year so I know it is possible to get by in life without seeing the latest episode of that tv show everyone is talking about. My time is spent more wisely now with my husband. Even during this COVID-19 pandemic I am finding plenty to do at home without watching Disney+. It is good for you. Trust me, you’ll thank me years later when you get out of debt that much faster and have stronger relationships with your family and friends.
 
+If you need a blueray player or some DVD's here are the products I recommend: 
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=brokebudget-20&marketplace=amazon&region=US&placement=B0848HG9ZT&asins=B0848HG9ZT&linkId=99f2e5c14294553a1c078288c45af7e5&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=brokebudget-20&marketplace=amazon&region=US&placement=B086PNWFMD&asins=B086PNWFMD&linkId=6011639320bd057d1eaaaf92267e1494&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=brokebudget-20&marketplace=amazon&region=US&placement=B071NHCKHT&asins=B071NHCKHT&linkId=a9f29a74642442a9f7289fa441801d6a&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=brokebudget-20&marketplace=amazon&region=US&placement=B07NN37WHT&asins=B07NN37WHT&linkId=6fcf49db40677734b42079f4b5d27d08&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=brokebudget-20&marketplace=amazon&region=US&placement=B07ZWBH99Z&asins=B07ZWBH99Z&linkId=a8457430552fc1d28cfc89152c28294c&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=brokebudget-20&marketplace=amazon&region=US&placement=B087KS68Q5&asins=B087KS68Q5&linkId=17f2157ed747da30c12eca4dda41f180&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+
 <!--EndFragment-->
