@@ -32,4 +32,10 @@ Whether you like to walk, take an online class, play a dancing video game, do pu
 
 Think about how much money you could save just by cutting your gym membership bill out of your budget. Go and cancel your gym membership if you don’t use it a few times a week. It really isn’t worth the money when you can get better value elsewhere. The gym won’t keep you accountable, only you can do that and only if you enjoy what you’re doing. Go cancel it now and live a better life without the extra payment.
 
+If you would like to learn more visit my YouTube channel to see workout routines I have tried at home: 
+
+<https://www.youtube.com/channel/UCI-3UJZMc7q6OuvfUtkGk_Q?view_as=subscriber>
+
+
+
 <!--EndFragment-->
