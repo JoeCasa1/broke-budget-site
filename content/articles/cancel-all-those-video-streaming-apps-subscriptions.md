@@ -20,7 +20,7 @@ I’m not saying you should completely wipe out your TV time but think about tem
 
 I cancelled mine last year so I know it is possible to get by in life without seeing the latest episode of that tv show everyone is talking about. My time is spent more wisely now with my husband. Even during this COVID-19 pandemic I am finding plenty to do at home without watching Disney+. It is good for you. Trust me, you’ll thank me years later when you get out of debt that much faster and have stronger relationships with your family and friends.
 
-If you need a blueray player or some DVD's here are the products I recommend: 
+If you need a Blu-ray player or some DVD's here are some of the products I recommend: 
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=brokebudget-20&marketplace=amazon&region=US&placement=B0848HG9ZT&asins=B0848HG9ZT&linkId=99f2e5c14294553a1c078288c45af7e5&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff">
     </iframe>
