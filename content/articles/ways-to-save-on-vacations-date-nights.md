@@ -1,6 +1,6 @@
 ---
 path: articles
-date: 2020-07-27T19:08:50.841Z
+date: 2020-06-10T19:08:50.841Z
 title: Ways To Save On Vacations & Date Nights
 description: Learn how to save some money on vacations and on dates with your
   significant other
