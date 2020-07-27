@@ -1,6 +1,6 @@
 ---
 path: articles
-date: 2020-07-27T20:44:23.541Z
+date: 2020-06-18T20:44:23.541Z
 title: "Cancel Luxury Subscriptions & Apps "
 description: Learn how you can save money by canceling luxury subscriptions and apps
 topimage: ""
