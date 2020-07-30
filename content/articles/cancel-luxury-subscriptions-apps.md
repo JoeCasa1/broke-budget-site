@@ -3,7 +3,7 @@ path: articles
 date: 2020-06-18T20:44:23.541Z
 title: "Cancel Luxury Subscriptions & Apps "
 description: Learn how you can save money by canceling luxury subscriptions and apps
-topimage: ""
+topimage: /assets/free-to-use-sounds-koucx7fh50u-unsplash-2.jpg
 ---
 <!--StartFragment-->
 

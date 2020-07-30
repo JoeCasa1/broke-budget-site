@@ -4,7 +4,7 @@ date: 2020-07-27T21:43:25.563Z
 title: Importance Of An Emergency Savings Account
 description: Learn about why it is important to have emergency savings and how
   to calculate how much savings you need
-topimage: ""
+topimage: /assets/free-to-use-sounds-koucx7fh50u-unsplash-2.jpg
 ---
 <!--StartFragment-->
 
@@ -20,25 +20,18 @@ Once you have paid off debt then I recommend saving three to six months’ worth
 
 Take your basic living expenses added up as one number then multiply it by the number of months you want to save for emergencies. The categories that should be included are the ones that take care of your housing, transportation, food, and recurring living expenses (lights, water, etc). If you want to include minimum debt payments you can, but you need to look after yourself and your family first. Listed below is a sample plan that shows you how to determine the dollar amount for your emergency savings.
 
-Mortgage: $1,200
-
-House Gas Bill: $80
-
-House Electricity/Water Bill: $150
-
-Internet: $50
-
-Trash Bill: $40
-
-Vehicle Gas: $250
-
-Groceries: $350
-
-Phone: $65
-
-Life Insurance: $29
-
-Auto/Home Insurance: $145
+|Bill|Amount|
+|:---|:---:|
+|Mortgage:| $1,200|
+|House Gas Bill:| $80|
+|House Electricity/Water Bill:| $150|
+|Internet:| $50|
+|Trash Bill:| $40|
+|Vehicle Gas:| $250|
+|Groceries:| $350|
+|Phone:| $65|
+|Life Insurance:| $29|
+|Auto/Home Insurance:| $145|
 
 **Total: $2,359**
 

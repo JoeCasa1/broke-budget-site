@@ -3,8 +3,8 @@ path: articles
 date: 2020-07-26T19:58:54.798Z
 title: "The Broke Budget Financial & Lifestyle Plan "
 description: "Watch the introduction video to The Broke Budget financial and
-  lifestyle plan. "
-topimage: ""
+  lifestyle plan."
+topimage: /assets/free-to-use-sounds-koucx7fh50u-unsplash-2.jpg
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uwA1mdCEeKA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
