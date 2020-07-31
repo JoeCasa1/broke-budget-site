@@ -4,9 +4,12 @@ date: 2020-07-27T21:43:25.563Z
 title: Importance Of An Emergency Savings Account
 description: Learn about why it is important to have emergency savings and how
   to calculate how much savings you need
-topimage: /assets/free-to-use-sounds-koucx7fh50u-unsplash-2.jpg
+topimage: /assets/daniel-tausis-emergency.jpg
 ---
 <!--StartFragment-->
+<span>Photo by <a href="https://unsplash.com/@greatmalinco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Tausis</a> on <a href="https://unsplash.com/s/photos/emergency?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+
+***
 
 It is not a matter of if an emergency is going to happen, it is a matter of when it will happen. Yet only 41% of Americans can pay cash for a $1,000 emergency. Leaving 16% that rely on a credit card for an emergency, 14% who plan to borrow the money from family & friends, 13% who will reduce their spending on other areas to cover it, 7% who will take out a personal loan, and 9% who don’t know how they will cover it or refused to answer the question.
 

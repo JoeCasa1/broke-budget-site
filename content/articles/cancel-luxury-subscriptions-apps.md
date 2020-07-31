@@ -3,9 +3,12 @@ path: articles
 date: 2020-06-18T20:44:23.541Z
 title: "Cancel Luxury Subscriptions & Apps "
 description: Learn how you can save money by canceling luxury subscriptions and apps
-topimage: /assets/free-to-use-sounds-koucx7fh50u-unsplash-2.jpg
+topimage: /assets/Gaming.jpg
 ---
 <!--StartFragment-->
+<span>Photo by <a href="https://unsplash.com/@toqeerakk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Muhammad Toqeer</a> on <a href="https://unsplash.com/s/photos/game-pad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+
+***
 
 When you’re broke you need all the money you can gather. Something that may be stealing your money is luxury apps or subscriptions. What counts as a luxury app or subscription? Luxury means a state of great comfort and extravagant living. Therefore that would be any subscription or app that you enjoy but that is not needed for essential living.
 

@@ -3,9 +3,12 @@ path: articles
 date: 2020-06-24T18:15:35.087Z
 title: Stop Eating Out At Restaurant's & Drive-Thru's
 description: Learn how much eating out is really costing you in savings
-topimage: /assets/free-to-use-sounds-koucx7fh50u-unsplash-2.jpg
+topimage: /assets/DriveThru.jpg
 ---
 <!--StartFragment-->
+<span>Photo by <a href="https://unsplash.com/@darkjett?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Terry Jaskiw</a> on <a href="https://unsplash.com/s/photos/drive-thru?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+
+***
 
 One of the most common reasons people are broke is because they are eating out. On average Americans are spending between $200 to $300 a month on eating out. That is on top of them buying groceries for an average of $300 to $500 a month. During the pandemic of 2020, we have actually increased eating out with takeout and drive-thrus. That is because everyone is tired of eating at home and it is an excuse to get out of the house.
 
