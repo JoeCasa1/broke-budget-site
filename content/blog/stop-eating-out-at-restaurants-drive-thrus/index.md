@@ -3,7 +3,7 @@ path: articles
 date: 2020-06-24T18:15:35.087Z
 title: Stop Eating Out At Restaurant's & Drive-Thru's
 description: Learn how much eating out is really costing you in savings
-topimage: /assets/DriveThru.jpg
+topimage: ../../assets/DriveThru.jpg
 ---
 <!--StartFragment-->
 <span>Photo by <a href="https://unsplash.com/@darkjett?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Terry Jaskiw</a> on <a href="https://unsplash.com/s/photos/drive-thru?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>

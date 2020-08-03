@@ -1,48 +1,38 @@
 module.exports = {
   siteMetadata: {
-    // edit below
     title: `The Broke Budget`,
-    author: `Brittany White-Her`,
+    author: {
+      name: `Brittany White-Her`,
+    },
     description: `A site all about creating a budget even when you're broke.`,
-    siteUrl: `https://broke-budget.netlify.com/`,
+    siteUrl: `https://TheBrokeBudget.com/`,
     social: {
-      twitter: `brokebudget`,
     },
   },
   plugins: [
-    `gatsby-plugin-netlify-cms`,
-    `gatsby-plugin-styled-components`,
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-feed-mdx`,
+    `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
+    
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/articles`,
-        name: `article`,
+        path: `${__dirname}/content/blog`,
+        //name: `blog`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/assets`,
-        name: `assets`,
+        //name: `assets`,
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-transformer-remark`,
       options: {
-        path: `${__dirname}/content/lessons`,
-        name: `lessons`,
-      },
-    },
-     {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        extensions: [".mdx", ".md"],
-        gatsbyRemarkPlugins: [
+        plugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -55,25 +45,20 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          {
-            resolve: `gatsby-remark-vscode`,
-          },
-          {
-            resolve: `gatsby-remark-copy-linked-files`,
-          },
-          {
-            resolve: `gatsby-remark-smartypants`,
-          },
+          `gatsby-remark-prismjs`,
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`,
         ],
       },
     },
+   
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        // edit below
-        // trackingId: `ADD YOUR TRACKING ID HERE`,
+        //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
+    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -87,6 +72,7 @@ module.exports = {
         icon: `content/assets/BrokeBudgetIcon.png`,
       },
     },
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {

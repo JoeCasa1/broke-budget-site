@@ -3,7 +3,7 @@ path: articles
 date: 2020-04-06T19:37:54.528Z
 title: How To Be At Peace With Your Finances
 description: "Learn how to gain financial security and have peace of mind with your money. "
-topimage: /assets/financial-peace.jpg
+topimage: ../../assets/financial-peace.jpg
 ---
 The first question you need to ask yourself is, “do I believe it possible to be at peace with my finances?” You have to believe it is possible in order to make it a reality. Sometimes finances can seem out of control and like there is never enough money in the bank to support the current lifestyle. Which brings anxiety, fear, and worry into the picture. That is the opposite of peace, hope, and security. I believe it is possible to be at peace with your finances. It doesn’t have to be a waging war that divides your money into many fractions that makes you lose all control.
 

@@ -3,7 +3,7 @@ path: articles
 date: 2020-04-15T19:47:05.072Z
 title: I Had To Be Broke To Start A Budget
 description: My story of how I had to be broke before I decided to make a budget
-topimage: /assets/i-had-to-be-broke-to-start-a-budget.png
+topimage: ../../assets/i-had-to-be-broke-to-start-a-budget.png
 ---
 <!--StartFragment-->
 
