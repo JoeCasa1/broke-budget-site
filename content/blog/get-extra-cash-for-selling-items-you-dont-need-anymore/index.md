@@ -3,7 +3,7 @@ path: articles
 date: 2020-04-13T21:04:46.730Z
 title: Get Extra Cash For Selling Items You Don't Need Anymore
 description: Earn some extra money by selling items you don't use or need anymore.
-topimage: /assets/sell-your-unused-items.jpg
+topimage: ../../assets/sell-your-unused-items.jpg
 ---
 <!--StartFragment-->
 

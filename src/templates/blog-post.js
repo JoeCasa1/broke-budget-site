@@ -1,50 +1,59 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
+import Img from "gatsby-image"
 
-class BlogPostTemplate extends React.Component {
-  render() {
-    const post = this.props.data.mdx
-    const siteTitle = this.props.data.site.siteMetadata.title
-    const { previous, next } = this.props.pageContext
-    const { topimage, path, date, description, title } = post.frontmatter
-    
-    const nextLink = next != null && next.frontmatter != null ? `${next.frontmatter.path}${next.fields.slug}` : null
-    const previousLink = previous != null && previous.frontmatter != null ? `${previous.frontmatter.path}${previous.fields.slug}` : null
 
-    const featuredImage = "../../" + topimage
+const BlogPostTemplate = ({ data, pageContext, location }) => {
+  const post = data.markdownRemark
+  const siteTitle = data.site.siteMetadata.title
+  const { previous, next } = pageContext
 
-    return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO
-          title={title}
-          description={description || post.excerpt}
-        />
-        <h1><span>{title}</span></h1>
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: `block`,
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
-          }}
-        >
-          {date}
-        </p>
-        <hr />
-        <img src={featuredImage} alt="" role="presentation" />
-        <MDXRenderer>{post.body}</MDXRenderer>
+  let topimageFluid = post.frontmatter.topimage && post.frontmatter.topimage.childImageSharp.fluid
+
+  return (
+    <Layout location={location} title={siteTitle}>
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description || post.excerpt}
+      />
+      <article>
+        <header>
+          <h1
+            style={{
+              marginTop: rhythm(1),
+              marginBottom: 0,
+            }}
+          >
+            {post.frontmatter.title}
+          </h1>          
+          <p
+            style={{
+              ...scale(-1 / 5),
+              display: `block`,
+              marginBottom: rhythm(1),
+            }}
+          >
+            {post.frontmatter.date}
+          </p>
+          {topimageFluid && <Img fluid={topimageFluid} />}
+        </header>
+        <section dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
             marginBottom: rhythm(1),
           }}
         />
-        <Bio />
+        <footer>
+          <Bio />
+        </footer>
+      </article>
+
+      <nav>
         <ul
           style={{
             display: `flex`,
@@ -55,23 +64,23 @@ class BlogPostTemplate extends React.Component {
           }}
         >
           <li>
-            {previous && previous.frontmatter.path === path && (
-              <Link to={previousLink} rel="prev">
+            {previous && (
+              <Link to={previous.fields.slug} rel="prev">
                 ← {previous.frontmatter.title}
               </Link>
             )}
           </li>
           <li>
-            {next && next.frontmatter.path === path && (
-              <Link to={nextLink} rel="next">
+            {next && (
+              <Link to={next.fields.slug} rel="next">
                 {next.frontmatter.title} →
               </Link>
             )}
           </li>
         </ul>
-      </Layout>
-    )
-  }
+      </nav>
+    </Layout>
+  )
 }
 
 export default BlogPostTemplate
@@ -81,20 +90,23 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        author
       }
     }
-    mdx(fields: { slug: { eq: $slug } }) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
-      body
+      html
       frontmatter {
-        path
         title
         date(formatString: "MMMM YYYY")
         description
-        topimage
-        lessonnumber
+        topimage {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

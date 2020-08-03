@@ -3,7 +3,7 @@ path: articles
 date: 2020-04-15T17:50:56.716Z
 title: Credit Cards Belong In A Safe, Not In Your Wallet
 description: "Learn how credit cards can be used wisely for a better life "
-topimage: /assets/credit-cards-in-wallet.jpg
+topimage: ../../assets/credit-cards-in-wallet.jpg
 ---
 <!--StartFragment-->
 

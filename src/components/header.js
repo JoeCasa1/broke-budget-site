@@ -64,9 +64,8 @@ const bannerQuery = graphql`
     }
     site {
       siteMetadata {
-        author
-        social {
-          twitter
+        author {
+          name
         }
       }
     }
