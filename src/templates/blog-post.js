@@ -13,6 +13,9 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const { previous, next } = pageContext
 
+  const nextLink = next != null && next.frontmatter != null ? `/${next.frontmatter.path}${next.fields.slug}` : null
+  const previousLink = previous != null && previous.frontmatter != null ? `/${previous.frontmatter.path}${previous.fields.slug}` : null
+
   let topimageFluid = post.frontmatter.topimage && post.frontmatter.topimage.childImageSharp.fluid
 
   return (
@@ -65,14 +68,14 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         >
           <li>
             {previous && (
-              <Link to={previous.fields.slug} rel="prev">
+              <Link to={previousLink} rel="prev">
                 ← {previous.frontmatter.title}
               </Link>
             )}
           </li>
           <li>
             {next && (
-              <Link to={next.fields.slug} rel="next">
+              <Link to={nextLink} rel="next">
                 {next.frontmatter.title} →
               </Link>
             )}

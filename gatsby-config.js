@@ -13,20 +13,20 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
-    
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        //name: `blog`,
+        path: `${__dirname}/content/articles`,
+        name: `articles`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/assets`,
-        //name: `assets`,
+        name: `assets`,
       },
     },
     {

@@ -4,7 +4,7 @@ date: 2020-07-26T19:58:54.798Z
 title: "The Broke Budget Financial & Lifestyle Plan "
 description: "Watch the introduction video to The Broke Budget financial and
   lifestyle plan."
-topimage: ../../assets/TrailerToMansion.png
+topimage: ../assets/TrailerToMansion.png
 ---
 |Today|The Vision|
 |---|---|
