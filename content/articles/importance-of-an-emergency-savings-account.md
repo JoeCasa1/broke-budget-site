@@ -4,7 +4,7 @@ date: 2020-07-27T21:43:25.563Z
 title: Importance Of An Emergency Savings Account
 description: Learn about why it is important to have emergency savings and how
   to calculate how much savings you need
-topimage: ../../assets/daniel-tausis-emergency.jpg
+topimage: ../assets/daniel-tausis-emergency.jpg
 ---
 <!--StartFragment-->
 <span>Photo by <a href="https://unsplash.com/@greatmalinco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Tausis</a> on <a href="https://unsplash.com/s/photos/emergency?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>

@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: joecasa1/broke-budget-site
+
+media_folder: content/assets
+public_folder: assets
+
+collections:
+  - name: articles
+    label: Articles
+    folder: content/articles
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: "topimage", label: "Featured Image", widget: "image", required: false, default: "/assets/financial-peace.jpg" }
+      - { name: body, label: Body, widget: markdown }

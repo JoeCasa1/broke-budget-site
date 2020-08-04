@@ -3,7 +3,7 @@ path: articles
 date: 2020-06-18T20:44:23.541Z
 title: "Cancel Luxury Subscriptions & Apps "
 description: Learn how you can save money by canceling luxury subscriptions and apps
-topimage: ../../assets/Gaming.jpg
+topimage: ../assets/Gaming.jpg
 ---
 <!--StartFragment-->
 <span>Photo by <a href="https://unsplash.com/@toqeerakk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Muhammad Toqeer</a> on <a href="https://unsplash.com/s/photos/game-pad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>

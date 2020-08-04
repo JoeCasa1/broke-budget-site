@@ -4,7 +4,7 @@ date: 2020-05-12T18:33:47.336Z
 title: Cancel Your Gym Membership
 description: Learn why you should cancel your gym membership and how you can
   still pursue your health goals without it
-topimage: ../../assets/risen-wang-20jx9b35r_m-unsplash.jpg
+topimage: ../assets/risen-wang-20jx9b35r_m-unsplash.jpg
 ---
 <!--StartFragment-->
 

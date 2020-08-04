@@ -16,6 +16,7 @@ const BlogIndex = ({ data, location }) => {
       <Bio />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
+        const link = `/${node.frontmatter.path}${node.fields.slug}`
         return (
           <article key={node.fields.slug}>
             <header>
@@ -24,9 +25,9 @@ const BlogIndex = ({ data, location }) => {
                   marginBottom: rhythm(1 / 4),
                 }}
               >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
+                <Link to={link} className="articleLink">
+                    {title}
+                  </Link>
               </h3>
               <small>{node.frontmatter.date}</small>
             </header>
@@ -64,6 +65,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM YYYY")
             title
             description
+            path
           }
         }
       }

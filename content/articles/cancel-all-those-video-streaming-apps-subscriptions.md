@@ -4,7 +4,7 @@ date: 2020-04-16T19:26:39.616Z
 title: "Cancel All Those Video Streaming Apps & Subscriptions "
 description: Discover the truth behind video streaming services and why you
   should cancel your subscriptions today!
-topimage: ../../assets/cancel-all-those-video-streaming-apps-subscriptions.png
+topimage: ../assets/cancel-all-those-video-streaming-apps-subscriptions.png
 ---
 <!--StartFragment-->
 
