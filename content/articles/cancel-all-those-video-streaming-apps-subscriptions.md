@@ -5,6 +5,11 @@ title: "Cancel All Those Video Streaming Apps & Subscriptions "
 description: Discover the truth behind video streaming services and why you
   should cancel your subscriptions today!
 topimage: ../assets/cancel-all-those-video-streaming-apps-subscriptions.png
+related_posts:
+  - Stop Eating Out At Restaurant's & Drive-Thru's
+  - "Cancel All Those Video Streaming Apps & Subscriptions "
+  - "Cancel Luxury Subscriptions & Apps "
+  - Get Extra Cash For Selling Items You Don't Need Anymore
 ---
 <!--StartFragment-->
 
